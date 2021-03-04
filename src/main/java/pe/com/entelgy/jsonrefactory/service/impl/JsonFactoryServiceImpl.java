@@ -14,6 +14,7 @@ import pe.com.entelgy.jsonrefactory.service.JsonFactoryService;
 
 @Service
 public class JsonFactoryServiceImpl implements JsonFactoryService {
+	
 	@Autowired
 	private JSONPlaceHolderClient jSONPlaceHolderClient;
 
